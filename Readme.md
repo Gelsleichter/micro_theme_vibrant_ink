@@ -2,7 +2,7 @@ Micro is a text/code editor for Linux terminal.
 
 This is a colorscheme for micro based on the Rstudio Vibrant ink flavoured theme: https://github.com/bgonzalezbustamante/v-ink-flavoured
 
-[<img src="[path/to/image.png](https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png)">]([https://link-to-your-URL/](https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png)),
+<img width="200" alt="Rstudio Vibrant ink flavoured theme" src="https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png">
 
 
 Micro sources, https://micro-editor.github.io/index.html, https://github.com/zyedidia/micro.
