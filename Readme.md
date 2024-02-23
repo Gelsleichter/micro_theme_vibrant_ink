@@ -2,7 +2,7 @@ Micro is a text/code editor for Linux terminal.
 
 This is a colorscheme for micro based on the Rstudio Vibrant ink flavoured theme: https://github.com/bgonzalezbustamante/v-ink-flavoured
 
-<img width="200" alt="Rstudio Vibrant ink flavoured theme" src="https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png">
+<img width="400" alt="Rstudio Vibrant ink flavoured theme" src="https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png">
 
 
 Micro sources, https://micro-editor.github.io/index.html, https://github.com/zyedidia/micro.
@@ -15,27 +15,31 @@ curl https://getmic.ro | bash
 
 
 Make an alias, instead of typing micro, or ./micro, just m
+```
 nano ~/.bashrc
 alias m=".././micro"
 source ~/.bashrc
-
+```
 
 -- Adding custom color schemes
 
 - Create the file into the colorscheme folder, it can be called "vibrantink.micro"
 
+```
 mkdir -p ~/.config/micro/colorschemes
 
 touch ~/.config/micro/colorschemes/vibrantink.micro
+```
 
 - Edit the files with:
 
-nano ~/.config/micro/colorschemes/vibrantink.micro
+`nano ~/.config/micro/colorschemes/vibrantink.micro`
 
 - Add colors from:
 
 Best if copy from the raw in the link: https://raw.githubusercontent.com/Gelsleichter/micro_theme_vibrant_ink/main/vibrant_ink.micro or https://github.com/Gelsleichter/micro_theme_vibrant_ink/blob/main/vibrant_ink.micro.
 
+```
 color-link default "#FFFFFF"  \
 color-link comment "#9933CC"  \
 color-link constant "#339999"  \
@@ -55,7 +59,7 @@ color-link gutter-error "bold #f20004"  \
 color-link gutter-warning "bold #b58900"  \
 color-link cursor-line "#252525"  \
 color-link color-column "#252525"  \
-
+```
 
 To change your colorscheme, go inside micro press "Ctrl-e" to bring up the command prompt, and type:
 
