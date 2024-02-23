@@ -1,6 +1,9 @@
 Micro is a text/code editor for Linux terminal.
 
-See the micro_theme folder https://github.com/Gelsleichter/micro_theme_vibrant_ink/blob/main/vibrant_ink.micro for colors only.
+This is a colorscheme for micro based on the Rstudio Vibrant ink flavoured theme: https://github.com/bgonzalezbustamante/v-ink-flavoured
+
+[<img src="[path/to/image.png](https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png)">]([https://link-to-your-URL/](https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png)),
+
 
 Micro sources, https://micro-editor.github.io/index.html, https://github.com/zyedidia/micro.
 
@@ -19,7 +22,7 @@ source ~/.bashrc
 
 -- Adding custom color schemes
 
-- Create the file into the colorschemes folder, it can be called "vibrantink.micro"
+- Create the file into the colorscheme folder, it can be called "vibrantink.micro"
 
 mkdir -p ~/.config/micro/colorschemes
 
@@ -31,8 +34,7 @@ nano ~/.config/micro/colorschemes/vibrantink.micro
 
 - Add colors from:
 
-Best if copy from the raw in the link: https://raw.githubusercontent.com/Gelsleichter/micro_theme_vibrant_ink/main/vibrant_ink.micro
-
+Best if copy from the raw in the link: https://raw.githubusercontent.com/Gelsleichter/micro_theme_vibrant_ink/main/vibrant_ink.micro or https://github.com/Gelsleichter/micro_theme_vibrant_ink/blob/main/vibrant_ink.micro.
 
 color-link default "#FFFFFF"  \
 color-link comment "#9933CC"  \
