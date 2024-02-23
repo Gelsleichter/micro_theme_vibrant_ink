@@ -1,0 +1,58 @@
+Micro is a text/code editor for linux terminal.
+
+See the micro_theme folder colors only.
+
+Micro sources, https://micro-editor.github.io/index.html, https://github.com/zyedidia/micro.
+
+Installation: 
+- Navigate to desired folder, then run the comand bellow to install in this folder (this will download and install micro):
+
+curl https://getmic.ro | bash
+
+Make an alias, instead of typing micro, or ./micro, just m
+nano ~/.bashrc
+alias m=".././micro"
+source ~/.bashrc
+
+Adding custom colorschemes
+
+- Create the file into the colorschemes folder, it can be called "vibrantink.micro"
+
+mkdir -p ~/.config/micro/colorschemes
+
+touch ~/.config/micro/colorschemes/vibrantink.micro
+
+- Edit the files with:
+
+nano ~/.config/micro/colorschemes/vibrantink.micro
+
+- Add colors:
+
+# Micro text editor theme adaptated from Rstudio Vibrant ink
+color-link default "#FFFFFF"                      # text
+color-link comment "#9933CC"                      # coments   
+color-link constant "#339999"                     # 
+color-link constant.string "#8DE635"              # 
+color-link constant.string.char "#8DE635"         # strings
+color-link constant.number "#CCCC33"              # 
+# color-link identifier "#FFFFFF"                 # 
+color-link statement "#FF6600"                    # Function
+# color-link preproc "#EDF8F9"                    # 
+color-link type "#FFCC00"                         # 
+color-link special "#DDE93D"                      # 
+color-link underlined "#268bd2"                   # 
+color-link error "bold #f20004"                   # 
+color-link todo "bold #268BD2"                    # 
+color-link statusline "#839496,#252525"           # Bar line at the bottom of the editor
+# color-link indent-char "#404040"                # 
+color-link line-number "#404040"                  # Line numbers on the left
+color-link current-line-number "#FFFFFF,#252525"  # 
+color-link gutter-error "bold #f20004"            # 
+color-link gutter-warning "bold #b58900"          # 
+color-link cursor-line "#252525"                  # 
+color-link color-column "#252525"                 # 
+
+
+To change your colorscheme, go inside micro press "Ctrl-e" to bring up the command prompt, and type:
+
+set colorscheme vibrantink
