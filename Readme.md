@@ -19,8 +19,10 @@ curl https://getmic.ro | bash
 Make an alias, instead of typing micro, or ./micro, just m
 ```
 nano ~/.bashrc
-alias m=".././micro"
+alias m="micro"
 source ~/.bashrc
+
+(it can be alias m="./micro", or alias m=".././micro" also, depends where it was installed)
 ```
 
 -- Adding custom color schemes
