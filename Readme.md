@@ -1,11 +1,12 @@
-Micro is a text/code editor for linux terminal.
+Micro is a text/code editor for Linux terminal.
 
-See the micro_theme folder colors only.
+See the micro_theme folder https://github.com/Gelsleichter/micro_theme_vibrant_ink/blob/main/vibrant_ink.micro for colors only.
 
 Micro sources, https://micro-editor.github.io/index.html, https://github.com/zyedidia/micro.
 
+
 Installation: 
-- Navigate to desired folder, then run the comand bellow to install in this folder (this will download and install micro):
+- Navigate to the desired folder, then run the command below to install in this folder (this will download and install micro):
 
 curl https://getmic.ro | bash
 
@@ -14,7 +15,7 @@ nano ~/.bashrc
 alias m=".././micro"
 source ~/.bashrc
 
-Adding custom colorschemes
+Adding custom color schemes
 
 - Create the file into the colorschemes folder, it can be called "vibrantink.micro"
 
