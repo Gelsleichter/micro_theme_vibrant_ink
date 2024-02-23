@@ -27,31 +27,30 @@ touch ~/.config/micro/colorschemes/vibrantink.micro
 
 nano ~/.config/micro/colorschemes/vibrantink.micro
 
-- Add colors:
+- Add colors from:
 
-# Micro text editor theme adaptated from Rstudio Vibrant ink
-color-link default "#FFFFFF"                      # text
-color-link comment "#9933CC"                      # coments   
-color-link constant "#339999"                     # 
-color-link constant.string "#8DE635"              # 
-color-link constant.string.char "#8DE635"         # strings
-color-link constant.number "#CCCC33"              # 
-# color-link identifier "#FFFFFF"                 # 
-color-link statement "#FF6600"                    # Function
-# color-link preproc "#EDF8F9"                    # 
-color-link type "#FFCC00"                         # 
-color-link special "#DDE93D"                      # 
-color-link underlined "#268bd2"                   # 
-color-link error "bold #f20004"                   # 
-color-link todo "bold #268BD2"                    # 
-color-link statusline "#839496,#252525"           # Bar line at the bottom of the editor
-# color-link indent-char "#404040"                # 
-color-link line-number "#404040"                  # Line numbers on the left
-color-link current-line-number "#FFFFFF,#252525"  # 
-color-link gutter-error "bold #f20004"            # 
-color-link gutter-warning "bold #b58900"          # 
-color-link cursor-line "#252525"                  # 
-color-link color-column "#252525"                 # 
+- https://raw.githubusercontent.com/Gelsleichter/micro_theme_vibrant_ink/main/vibrant_ink.micro
+
+
+color-link default "#FFFFFF" 
+color-link comment "#9933CC" 
+color-link constant "#339999" 
+color-link constant.string "#8DE635" 
+color-link constant.string.char "#8DE635" 
+color-link constant.number "#CCCC33" 
+color-link statement "#FF6600" 
+color-link type "#FFCC00" 
+color-link special "#DDE93D" 
+color-link underlined "#268bd2" 
+color-link error "bold #f20004" 
+color-link todo "bold #268BD2" 
+color-link statusline "#839496,#252525" 
+color-link line-number "#404040" 
+color-link current-line-number "#FFFFFF,#252525" 
+color-link gutter-error "bold #f20004" 
+color-link gutter-warning "bold #b58900" 
+color-link cursor-line "#252525" 
+color-link color-column "#252525" 
 
 
 To change your colorscheme, go inside micro press "Ctrl-e" to bring up the command prompt, and type:
