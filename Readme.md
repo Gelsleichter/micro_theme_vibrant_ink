@@ -1,6 +1,6 @@
 Micro is a text/code editor for Linux terminal.
 
-This is a colorscheme for micro based on the Rstudio Vibrant ink flavoured theme: https://github.com/bgonzalezbustamante/v-ink-flavoured
+This is a colorscheme for micro based on the Rstudio [Vibrant ink flavoured theme](https://github.com/bgonzalezbustamante/v-ink-flavoured).
 
 <img width="400" alt="Rstudio Vibrant ink flavoured theme" src="https://github.com/bgonzalezbustamante/v-ink-flavoured/raw/main/images/vink.png">
 
@@ -41,7 +41,7 @@ nano ~/.config/micro/colorschemes/vibrantink.micro
 
 - Add colors from:
 
-Best if copy from the raw in the link: https://raw.githubusercontent.com/Gelsleichter/micro_theme_vibrant_ink/main/vibrant_ink.micro or https://github.com/Gelsleichter/micro_theme_vibrant_ink/blob/main/vibrant_ink.micro.
+Best if copy from the [raw file](https://raw.githubusercontent.com/Gelsleichter/micro_theme_vibrant_ink/main/vibrant_ink.micro) or [file](https://github.com/Gelsleichter/micro_theme_vibrant_ink/blob/main/vibrant_ink.micro).
 
 ```
 color-link default "#FFFFFF"  
@@ -65,7 +65,7 @@ color-link cursor-line "#252525"
 color-link color-column "#252525"  
 ```
 
-To change your colorscheme, go inside micro press "Ctrl-e" to bring up the command prompt, and type:
+To change your colorscheme, go inside micro press `Ctrl-e` to bring up the command prompt, and type:
 
 ```
 set colorscheme vibrantink
